@@ -1,0 +1,176 @@
+/*---Colors Used 
+- dark green - 1C2A2C
+- footer dark - 24282B
+--*/ 
+
+
+/*---CSS Reset--*/ 
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*---Tempory Styles for structual html 
+* { 
+    padding: 0.5rem;
+    border: 1px solid rgb(146, 143, 143);
+}
+
+html,
+body { 
+    border: none;
+}
+
+.bg-image { 
+    border: 1px solid orange;
+}
+
+End Tempory Styles --*/ 
+
+
+
+/*---Universal styles & Utility Classes--*/ /*--- These are also "classes"--*/ 
+
+body { 
+    font-family: 'Raleway', sans-serif;
+} 
+
+/*--- Padding = Body Fat--*/ 
+.padded     { padding:5%;    }
+.padded-lg  { padding:10%    }
+.padded-1   { padding:1rem;  }
+.padded-2   { padding: 2rem; }
+
+/*--- Margin Bottom Overide---*/
+.margin-b-0 { margin: bottom 0; }
+
+/*--- Background Color Dark--*/ 
+.bg-featured {background-color:#1C2A2C;}
+.bg-dark     {background-color:#24282B;}
+
+
+/*---Section Heights (how tall they are on screen)--*/ 
+.tall-50  { min-height: 50vh;}
+.tall-60  { min-height: 60vh;}
+.tall-70  { min-height: 70vh;}
+.tall-80  { min-height: 80vh;}
+.tall-90  { min-height: 90vh;}
+.tall-100 { min-height: 100vh;}
+
+
+/*---Typography Styles--*/ 
+/*--- Text Color/ Text Featured (another color)--*/ 
+.white-text     { color: white;  }
+.uppercase-text { text-transform: uppercase;}
+
+/*--- Text Sizes --*/ 
+.small-text     { font-size: 1.5rem; }
+.medium-text    { font-size: 2rem;}
+.big-text       { font-size: 4.5rem; }
+
+/*--- Font Weights(thickness) 300 400 500 900--*/ 
+.font-weight-light  { font-weight: 300; }
+.font-weight-normal { font-weight: 400; }
+.font-weight-bold   { font-weight: 500; }
+.font-weight-bolder { font-weight: 900; }
+
+/*--- Text Positioning--*/ 
+.text-left     { text-align:left;   }
+.text-center   { text-align:center; }
+.text-right    { text-align:right;  }
+ 
+/*---Header & Footer Styling--*/ 
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight:900;
+    text-transform: uppercase;  
+    margin-bottom: 0.5rem; 
+}
+
+h1 { 
+    font-size:8rem;
+}
+   
+h2 {
+    font-size:2.4rem;
+}
+
+h3 { 
+    font-size:1.8rem;
+}
+
+/*---Paragraph & List Styling--*/ 
+
+p, 
+li { 
+    font-weight: 300;
+    line-height:1.4;
+    margin-bottom: 0.8rem; 
+    font-size:  1.5rem;;
+}
+
+/*---Link Styling--*/ 
+a { 
+    color: inherit;
+    font-weight: 300;
+}
+
+nav a { 
+    text-decoration:none;
+}
+
+.fab { 
+    font-size:1.5rem;
+    padding-left: 0.5rem;
+}
+
+
+
+/*--- Background Images Universal--*/ 
+.bg-image {
+    background-color:#24282B;
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-image: url('images/the-bunker-1.jpg');
+}
+
+/*--- Background Images---*/ 
+.bg-roof {
+    background-image: url('/images/the-bunker-5.jpg');
+}
+.bg-bed {
+    background-image: url('/images/the-bunker-1.jpg');
+}
+.bg-hallway {
+    background-image: url('/images/the-bunker-3.jpg');
+}
+.bg-lounge {
+    background-image: url('/images/the-bunker-4.jpg');
+}
+.bg-lounge-2 {
+    background-image: url('/images/the-bunker-2.jpg');
+}
+.bg-sheets {
+    background-image: url('/images/the-bunker-7.jpg');
+}
+.bg-map {
+    background-image: url('/images/the-bunker-6.png');
+}
+
+
+/*--- Padding for Images = Body Fat--*/ 
+.bg-padded {
+    padding-bottom:30%
+}
+
+.social-banner { 
+    background-position: 50% 17%;
+}
+
+/*---This is removing the margin of the bottom paragraph (weird extra space at the bottom of the container)--*/ 
+p:last-child,
+li:last-child {
+    margin-bottom: 0;
+} 
