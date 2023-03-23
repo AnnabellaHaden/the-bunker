@@ -64,6 +64,12 @@ body {
 .white-text     { color: white;  }
 .uppercase-text { text-transform: uppercase;}
 
+.subtle { 
+    opacity: 0.8;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
 /*--- Text Sizes --*/ 
 .small-text     { font-size: 1.5rem; }
 .medium-text    { font-size: 2rem;}
@@ -100,6 +106,14 @@ h3 {
     font-size:1.8rem;
 }
 
+footer h2 {
+    line-height:1;
+}
+
+footer p { 
+    margin-bottom:0.2rem;
+}
+
 /*---Paragraph & List Styling--*/ 
 
 p, 
@@ -120,12 +134,15 @@ nav a {
     text-decoration:none;
 }
 
+/*---Icon's Styling--*/ 
 .fab { 
     font-size:1.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
 }
 
-
+a:hover { 
+    color: #274d36;
+}
 
 /*--- Background Images Universal--*/ 
 .bg-image {
